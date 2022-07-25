@@ -21,21 +21,21 @@ Insertion Sort Aşamaları
 [2,6,16|,18,22,27] - (n-3)
 
 Big O Notation Gösterimi
+
 Worst Case: O(n²) = n+(n-1)+(n-2)....+1
-
 Average Case: O(n²)
-
 Best Case: O(n)
 
 Time Complexity
+
 Worst Case: [27,22,18,16,6,2]
 
 Best Case: [2,6,16,18,22,27]
 
-18 Sayısının Case Durumu
-Dizimiz küçükten büyüğe sıralandıktan sonra [2,6,16,18,22,27] şeklini alır ve 18 sayısı bu dizinin ortanca değeridir. Yani average case diyebiliriz.
+18 sayısı worst case ve best case için de geçerli olmadığından dolayı (dizi arasında olduğundan dolayı) average case kapsamına girer
 
-[7,3,5,8,2,9,4,15,6] Dizisinin İlk 4 Adımı
+[7,3,5,8,2,9,4,15,6] Dizisi
+
 [2|,3,5,8,7,9,4,15,6]
 
 [2,3|,5,8,7,9,4,15,6]
